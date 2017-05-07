@@ -19,8 +19,11 @@ Now, we can install Python 3:
 Once that's done, we need to install the Python package manager - pip. In your terminal, run the following four lines:
 
 `curl -O http://python-distribute.org/distribute_setup.py`
+
 `python distribute_setup.py`
+
 `curl -O https://raw.github.com/pypa/pip/master/contrib/get-pip.py`
+
 `python get-pip.py`
 
 Now that we have the package manager, we can install the coding standard we will be using for this repository - pep8.
@@ -42,6 +45,7 @@ Next we install Python3. To install Python 3 on Linux run:
 Once installed, in is necessary to  install the Python package manager - pip. In your terminal, run the following lines:
 
 `sudo apt-get install python-pip python-dev build-essential`
+
 `sudo pip install --upgrade pip `
 
 Now that we have the package manager, we can install the coding standard we will be using for this repository - pep8.
