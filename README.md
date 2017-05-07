@@ -4,10 +4,10 @@ Learn the high level programming language Python from the ground up with this he
 
 ### Installing Everything You Need
 
-* Mac OSX..
+* Mac OSX__
   If you don't have a packager downloaded, now is the time to do it. Open your terminal and run:
 
-`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+  `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 ⋅⋅⋅The script will explain what changes it will make and prompt you before the installation begins. Once installed, insert the Homebrew ⋅⋅⋅directory at the top of your PATH environment variable. You can do this by adding the following line at the bottom of your ~/.profile ⋅⋅⋅file:
 
