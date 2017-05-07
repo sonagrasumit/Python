@@ -11,33 +11,43 @@ If you don't have a packager downloaded, now is the time to do it. Open your ter
 
 The script will explain what changes it will make and prompt you before the installation begins. Once installed, insert the Homebrew       directory at the top of your PATH environment variable. You can do this by adding the following line at the bottom of your ~/.profile   file:
 
- `export PATH=/usr/local/bin:/usr/local/sbin:$PATH`
+`export PATH=/usr/local/bin:/usr/local/sbin:$PATH`
 
-⋅⋅⋅Now, we can install Python 3:
-⋅⋅⋅`brew install python3`
+Now, we can install Python 3:
+`brew install python3`
 
-⋅⋅⋅Once that's done, we need to install the Python package manager - pip. In your terminal, run the following four lines:
+Once that's done, we need to install the Python package manager - pip. In your terminal, run the following four lines:
 
-⋅⋅⋅`curl -O http://python-distribute.org/distribute_setup.py`
-⋅⋅⋅`python distribute_setup.py`
-⋅⋅⋅`curl -O https://raw.github.com/pypa/pip/master/contrib/get-pip.py`
-⋅⋅⋅`python get-pip.py`
+`curl -O http://python-distribute.org/distribute_setup.py`
+`python distribute_setup.py`
+`curl -O https://raw.github.com/pypa/pip/master/contrib/get-pip.py`
+`python get-pip.py`
 
-⋅⋅⋅Now that we have the package manager, we can install the coding standard we will be using for this repository - pep8.
-⋅⋅⋅To install pep8 run:
-⋅⋅⋅`pip install pep8`
+Now that we have the package manager, we can install the coding standard we will be using for this repository - pep8.
+To install pep8 run:
 
-..* Linux
-⋅⋅⋅First of all check if your package manager, `apt-get` is updated by running the following command in your terminal:
-⋅⋅⋅`sudo apt-get update`
+`pip install pep8`
 
-⋅⋅⋅Next we install Python3. To install Python 3 on Linux run:
-⋅⋅⋅`sudo apt-get python3`
+And now your all ready set and go to start learning Python!
 
-⋅⋅⋅Once installed, in is necessary to  install the Python package manager - pip. In your terminal, run the following lines:
-⋅⋅⋅`sudo apt-get install python-pip python-dev build-essential`
-⋅⋅⋅`sudo pip install --upgrade pip `
+#### Linux
+First of all check if your package manager, `apt-get` is updated by running the following command in your terminal:
 
-⋅⋅⋅Now that we have the package manager, we can install the coding standard we will be using for this repository - pep8.
-⋅⋅⋅To install pep8 run:
-⋅⋅⋅`pip install pep8`
+`sudo apt-get update`
+
+Next we install Python3. To install Python 3 on Linux run:
+
+`sudo apt-get python3`
+
+Once installed, in is necessary to  install the Python package manager - pip. In your terminal, run the following lines:
+
+`sudo apt-get install python-pip python-dev build-essential`
+`sudo pip install --upgrade pip `
+
+Now that we have the package manager, we can install the coding standard we will be using for this repository - pep8.
+
+To install pep8 run:
+
+`pip install pep8`
+
+And now your all ready set and go to start learning Python!
