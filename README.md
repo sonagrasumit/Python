@@ -4,7 +4,7 @@ Learn the high level programming language Python from the ground up with this he
 
 ### Installing Everything You Need
 
-* Mac OSX
+..* Mac OSX
 ⋅⋅⋅If you don't have a packager downloaded, now is the time to do it. Open your terminal and run:
 
 ⋅⋅⋅`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
@@ -27,7 +27,7 @@ Learn the high level programming language Python from the ground up with this he
 ⋅⋅⋅To install pep8 run:
 ⋅⋅⋅`pip install pep8`
 
-* Linux
+..* Linux
 ⋅⋅⋅First of all check if your package manager, `apt-get` is updated by running the following command in your terminal:
 ⋅⋅⋅`sudo apt-get update`
 
