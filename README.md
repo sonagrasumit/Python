@@ -82,3 +82,13 @@ To install pep8 run:
 And now your all ready set and go to start learning Python!
 
 
+### Windows
+
+Download preferred python version, there are two version Python 2.#.# and Python 3.#.#, from offical python website and install it.
+
+
+### Useful Links
+www.python.org
+
+
+
